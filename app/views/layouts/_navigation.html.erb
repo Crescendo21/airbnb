@@ -10,7 +10,7 @@
           </button>
           <%= link_to 'Airbnb', root_path, {:class=>"navbar-brand"} %>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse right">
           <ul class="nav navbar-nav navbar-right">
        <% if (!user_signed_in?) %>
             <li><%= link_to 'Inscription', new_user_registration_path %></li>
