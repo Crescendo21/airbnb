@@ -27,6 +27,8 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise-i18n'
 
+gem "paperclip"
+
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
