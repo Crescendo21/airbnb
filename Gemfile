@@ -30,6 +30,8 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 #bootstrap
 gem 'bootstrap-sass'
 
+gem 'rails_serve_static_assets'
+
 gem 'devise'
 gem 'devise-i18n'
 gem 'rails-i18n'
@@ -69,3 +71,5 @@ group :production do
   gem 'pg', '~> 0.20'
   gem 'rails_12factor'
 end
+
+gem 'rails_12factor', group: :production
