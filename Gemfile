@@ -42,6 +42,8 @@ gem "toastr-rails"
 
 gem "font-awesome-sass"
 
+gem 'paperclip-cloudinary'
+
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
@@ -68,6 +70,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg', '~> 0.20'
+  gem 'pg', '~> 0.20.0'
   gem 'rails_12factor'
 end
