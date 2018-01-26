@@ -43,6 +43,7 @@ class RoomsController < ApplicationController
             end
         end
         @photos = @room.photos
+        @room.save
         redirect_to edit_room_path(@room), notice:"Modification enregistrée..."
       else
         render :edit
